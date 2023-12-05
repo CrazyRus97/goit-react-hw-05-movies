@@ -1,8 +1,10 @@
 import { Link, Route, Routes, useLocation } from 'react-router-dom';
 import { Suspense, useRef, lazy } from 'react';
+
 import { MainInfo, StyledContainer } from './MovieInfo.styled';
 import { AdditionalInfo } from './MovieInfo.styled';
 import { StyledLink } from './MovieInfo.styled';
+
 import Loader from 'components/Loader/Loader';
 
 const Cast = lazy(() => import('../Cast/Cast'));

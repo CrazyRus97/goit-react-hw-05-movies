@@ -1,6 +1,8 @@
 import { useParams } from 'react-router-dom';
 import { useState, useEffect } from 'react';
+
 import { fetchDetails } from 'services/api';
+
 import { ErrorMessage } from 'components/ErrorMessage/ErrorMessage';
 import Loader from 'components/Loader/Loader';
 import MovieInfo from 'components/MovieInfo/MovieInfo';

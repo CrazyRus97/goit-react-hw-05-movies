@@ -8,7 +8,7 @@ export const Searchbar = ({ handleSubmit }) => (
         name="searchInput"
         autoComplete="off"
         autoFocus
-        placeholder="Search films by keyword"
+        placeholder="Search films ..."
       />
       <button type="submit" className="button">
         Search

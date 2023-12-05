@@ -1,8 +1,11 @@
 import { useParams } from 'react-router-dom';
 import { useState, useEffect } from 'react';
+
 import { fetchReviews } from 'services/api';
+
 import { ErrorMessage } from 'components/ErrorMessage/ErrorMessage';
 import Loader from 'components/Loader/Loader';
+
 import { StyledReviews } from './Reviews.styled';
 
 const Reviews = () => {
@@ -42,7 +45,7 @@ const Reviews = () => {
           ))}
         </StyledReviews>
       ) : (
-        <p>We don`t have any reviews for this movie.</p>
+        <p>IS NOT REVIEWS YET. SORRY</p>
       )}
     </>
   );

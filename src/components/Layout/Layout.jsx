@@ -1,4 +1,5 @@
 import { NavLink, Outlet } from 'react-router-dom';
+
 import { StyledHeader } from './Layout.styled';
 
 export const Layout = () => {

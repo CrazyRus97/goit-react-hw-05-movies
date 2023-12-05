@@ -6,6 +6,7 @@ padding: 20px 0 20px 0;
 
 a {
   padding: 5px 0 1px;
+  margin: 0 auto;
   text-decoration: none;
   color: black;
   font-weight: 700;
@@ -17,7 +18,7 @@ a {
   }
 
    &:first-child{
-  margin-left: 110px;
+  margin-left: 820px;
   margin-right: 15px;
   }
 

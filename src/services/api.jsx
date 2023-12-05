@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 axios.defaults.params = {
-    api_key: '91faadec5932527447e5330550c607bc',
+    api_key: '20311c0a3720ee85bb9718b5610b0ca5',
 }
 
 export const fetchFilms = async () => {

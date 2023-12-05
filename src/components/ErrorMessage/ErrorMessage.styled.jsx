@@ -8,7 +8,7 @@ export const Error = styled.p`
   font-weight: 500;
 
   span{
-color: #010101;
+color: #ED684C;
 font-size: 20px;
   }
 `

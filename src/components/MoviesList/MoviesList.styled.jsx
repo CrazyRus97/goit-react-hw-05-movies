@@ -12,7 +12,7 @@ export const List = styled.ul`
   list-style: none;
 
   .movie-item {
-    width: calc((100% - 80px) / 5);
+    width: calc((100% - 60px) / 5);
     border-radius: 4px;
     box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
       0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
@@ -36,6 +36,6 @@ export const List = styled.ul`
   .title {
     padding: 0 5px;
     font-weight: 500;
-    color: #010101;
+    color: #ED684C;
   }
 `;

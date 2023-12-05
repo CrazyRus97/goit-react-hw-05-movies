@@ -14,11 +14,11 @@ export const StyledLink = styled(Link)`
   color: black;
   font-weight: 500;
   text-decoration: none;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 
   &:hover {
      text-decoration: underline; 
-     color: #20b2aa;   
+     color: #4C5CED;   
     }
 
 `;
@@ -46,12 +46,10 @@ display: flex;
   padding-left: 10px;
   margin-bottom: 20px;
   a {
-    text-decoration: none;
-    color: #000;
+    color: #4C5CED;
     font-weight: 500;
     }
     :hover {
-     text-decoration: underline; 
-     color: lightseagreen;   
+     color: #4C5CED;   
     }
 `;

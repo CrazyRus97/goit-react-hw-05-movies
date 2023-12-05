@@ -3,9 +3,6 @@ import styled from "styled-components";
 export const StyledHeader = styled.header`
 width: 100%;
 padding: 20px 0 20px 0;
--webkit-box-shadow: 0px -5px 7px -2px rgba(11, 49, 47, 1) inset;
--moz-box-shadow: 0px -5px 7px -2px rgba(11, 49, 47, 1) inset;
-box-shadow: 0px -5px 7px -2px rgba(11, 49, 47, 1) inset;
 
 a {
   padding: 5px 0 1px;
@@ -16,16 +13,16 @@ a {
 
   &.active {
     color: black;
-    border-bottom: 4px solid #20b2aa;
+    border-bottom: 4px solid #4C5CED;
   }
 
    &:first-child{
-  margin-left: 130px;
-  margin-right: 20px;
+  margin-left: 110px;
+  margin-right: 15px;
   }
 
   &:hover{
-    color: #20b2aa;
+    color: #4C5CED;
   }
 }
 `;

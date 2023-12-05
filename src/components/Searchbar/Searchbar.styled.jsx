@@ -7,7 +7,7 @@ export const StyledForm = styled.form`
   margin: 0 0 20px;
   padding: 10px 0;
   width: 100%;
-  background-color:rgb(175, 174, 174);
+  background-color:#204CAD;
  
 
   .button {
@@ -22,7 +22,7 @@ export const StyledForm = styled.form`
   }
 
     .button:hover {
-    background-color: #20b2aa;
+    background-color: #4C5CED;
     color: #fff;
   }
 

@@ -26,13 +26,13 @@ const MovieInfo = ({ movie }) => {
               : defaultImg
           }
           width={250}
-          alt="poster"
+          alt="film poster"
         />
         <div className="movie-info">
           <h2>
             {movie.title} ({movie.release_date.slice(0, 4)})
           </h2>
-          <p>User score: {movie.vote_average.toFixed(1)}</p>
+          <p>User point: {movie.vote_average.toFixed(1)}</p>
           <h3>Overview</h3>
           <p>{movie.overview}</p>
           <h3>Genres</h3>

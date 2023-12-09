@@ -1,7 +1,5 @@
 import { useState, useEffect } from 'react';
-
 import { fetchFilms } from '../services/api';
-
 import { MoviesList } from 'components/MoviesList/MoviesList';
 import Loader from '../components/Loader/Loader';
 import { ErrorMessage } from '../components/ErrorMessage/ErrorMessage';
